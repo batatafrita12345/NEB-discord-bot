@@ -22,7 +22,8 @@ First of all let's install the dependencies, use:
 npm install
 ```
 
-Now you need to add your `BOT_ID` and your `GUILD_ID` on the file `src/Configs/config.js`, and for your token create a `.env` file, or change `process.env.TOKEN` by your token in `config.js`, you must get your google service account credentials, then convert the json to a base64 format, and put in the `.env` file, or change the `process.env.BASE64_CREDENTIALS`, also you must set the `SPREADSHEET_ID` in the `.env` file.
+Now you need to configure the enviroment, just rename the file `.env.example` to `.env` and insert the requested values.
+note: in `BASE64_CREDENTIALS` you need to get all the JSON credential from the google service credential, and turn to base64
 
 then run:
 
