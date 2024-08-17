@@ -1,29 +1,24 @@
 {
-  "name": "slash-bot-template",
-  "version": "4.0.0-rebuild",
-  "description": "A template discord bot with slash commands",
+  "name": "neb-bot",
+  "version": "1.0.0",
+  "description": "NEB discord bot for logging",
   "main": "index.js",
   "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@googleapis/sheets": "^9.0.0",
     "discord.js": "^14.7.1",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "googleapis": "^140.0.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
-    "test": "node start.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gurizenit/slash-bot-template.git"
   },
-  "keywords": [
-    "v14",
-    "slash",
-    "template",
-    "discord.js",
-    "nodejs"
-  ],
-  "author": "GuriZenit",
+  "keywords": [],
+  "author": "batatafrita12345",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gurizenit/slash-bot-template/issues"

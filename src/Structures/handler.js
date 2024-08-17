@@ -5,10 +5,15 @@ module.exports = {
     const { TOKEN, GUILD_ID, BOT_ID } = client.config;
     const rest = new REST({ version: "10" }).setToken(TOKEN);
 
-    const command = client.commands.get("add");
+    const commandArray = new Array();
+    const commands = client.commands;
 
-    await rest.post(Routes.applicationGuildCommands(BOT_ID, GUILD_ID), {
-      body: command.data,
+    commands.forEach((cmd) => {
+      commandArray.push(cmd.data);
+    });
+    // to guild
+    await rest.put(Routes.applicationGuildCommands(BOT_ID, GUILD_ID), {
+      body: commandArray,
     });
   },
 };

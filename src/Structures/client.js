@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits, Collection } = require("discord.js");
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers],
   presence: {
-    activities: [{ name: "use /", type: 0 }],
+    activities: [{ name: "Made by batatafrita12345", type: 0 }],
     status: "dnd",
   },
 });
