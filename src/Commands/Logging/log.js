@@ -87,7 +87,7 @@ module.exports = {
                 { name: "Power Produced", value: DeltaPower + "W" },
             ])
             .setTimestamp()
-	        .setFooter({ text: 'Nuclear Engineer Branch' })
+	        .setFooter({ text: 'Nuclear Engineering Branch' })
             .setColor("#963e00");
 
         await interaction.reply({

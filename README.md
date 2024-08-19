@@ -2,8 +2,8 @@
 
 ## Credits
 
-GuriZenit -> orignal bot template
-batatafrita12345
+- GuriZenit -> original bot template
+- batatafrita12345
 
 ## Requirements
 
