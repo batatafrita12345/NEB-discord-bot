@@ -13,6 +13,7 @@
 - googleapis `V140.0.1`
 - @googleapis/sheets `V9.0.0`
 - @google-cloud/local-auth `V3.0.1`
+- express `V4.19.2`
 
 ## Usage
 
